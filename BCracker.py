@@ -1,9 +1,9 @@
 import os
 import bitcoin
 
-#This file '1Kbi8vka766DWSYjox5aRcnJtMVFu8dqV1' would contain the addresses you would want to bruteforce
+#This file 'Bits.txt' would contain the addresses you would want to bruteforce
 
-filexy = open('1Kbi8vka766DWSYjox5aRcnJtMVFu8dqV1',mode='r')
+filexy = open('Bits.txt',mode='r')
 
 #Loading all the addresses to memory for fast search
 bit_addresses = filexy.read()
